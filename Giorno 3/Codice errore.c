@@ -13,7 +13,7 @@ for ( i = 0 ; i < 10 ; i++)
 	int c= i+1;
 	printf("[%d]:", c);
 	scanf ("%d", vector[i]); //la funzione 'scaf' richiede un puntatire a memoria come parametro per inserire il valore ricevuto dall'input standard (STDIN).
-                             // Se si omette il simbolo '&' prima della variabile, si passa effettivamente un valore non inizializzato, causando un errore di segmentazione al primo inserimento.
+                                // Se si omette il simbolo '&' prima della variabile, si passa effettivamente un valore non inizializzato, causando un errore di segmentazione al primo inserimento.
 	}
 
 
