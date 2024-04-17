@@ -1,10 +1,10 @@
-// Includi la libreria standard per l'input/output
+// Includiamo la libreria standard per l'input/output
 #include <stdio.h>
 
-// Definisci la funzione principale del programma
+// Definiamo la funzione principale del programma
 int main () {
 
-    // Dichiarazioni delle variabili
+    // Qui dichiariamo delle variabili
     int vector [10], i, j, k; // vector è un array di 10 interi, i, j, k sono variabili di controllo
     int swap_var; // Variabile temporanea per lo scambio di valori
 
